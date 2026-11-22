@@ -242,7 +242,7 @@ function App() {
       <header className="app-header app-header--compact">
         <div className="brand">
           <div>
-            <p className="brand-name">motupatlu</p>
+            <p className="brand-name">labelscore</p>
             <p className="brand-tag">Label → score</p>
           </div>
         </div>

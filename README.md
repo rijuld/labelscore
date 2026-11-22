@@ -1,4 +1,4 @@
-# yuka
+# labelscore
 
 Point your phone at a packaged-food label, get a nutrition score out of 100 and a short list of
 ingredients worth knowing about — each with a concrete reason, not vague hedging.
@@ -43,8 +43,8 @@ meat) or it gets dropped from the list. See [`src/ingredientsModel.ts`](src/ingr
 ### Install and run
 
 ```bash
-git clone https://github.com/rijuld/yuka.git
-cd yuka
+git clone https://github.com/rijuld/labelscore.git
+cd labelscore
 npm install
 
 # add your key
@@ -90,7 +90,7 @@ GEMINI_API_KEY=your_key_here
 ## Project layout
 
 ```
-yuka/
+labelscore/
 ├── e2e/
 │   └── ingredients.spec.ts   # Playwright end-to-end test
 ├── public/                   # Static assets served as-is
@@ -135,7 +135,4 @@ Please keep the existing code style: TypeScript throughout, no semicolons, singl
 
 ## License
 
-No license file has been added to this repository yet, so all rights are reserved by default and
-others cannot legally reuse the code. If you intend this to be open source, add a `LICENSE` file —
-[MIT](https://choosealicense.com/licenses/mit/) is the usual choice for a project like this — and
-update this section.
+[MIT](LICENSE) © Rijul Dahiya
